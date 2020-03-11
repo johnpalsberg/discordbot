@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [version]: https://api.bintray.com/packages/dv8fromtheworld/maven/JDA/images/download.svg
 [download]: https://bintray.com/dv8fromtheworld/maven/JDA/_latestVersion
 [discord-invite]: https://discord.gg/0hMr4ce0tIl3SLv5
@@ -674,3 +675,7 @@ All dependencies are managed automatically by Gradle.
 - [serenity](https://github.com/serenity-rs/serenity)
 
 **See also:** https://discordapp.com/developers/docs/topics/community-resources#libraries
+=======
+# discordbot
+collab to make a discord bot for clash royale
+>>>>>>> a1c7d68ed3687f9096fb8383f0103c4cfb0569fc
