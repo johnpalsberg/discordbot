@@ -14,5 +14,6 @@ public class discordbot {
     jda = new JDABuilder(AccountType.BOT).setToken("").build();
     jda.getPresence().setStatus(OnlineStatus.IDLE);
     jda.getPresence().setActivity(Activity.playing("Clash Royale"));
+    jda.addEventListener(new GuildMemberJoin());
   }
 }
