@@ -19,8 +19,8 @@ public class GuildMemberJoin extends ListenerAdapter {
    event.getGuild().getDefaultChannel().sendMessage(join.build());
    EmbedBuilder test = new EmbedBuilder();
    test.setColor(0x66d8ff);
-   event.getUser().openPrivateChannel().flatMap(channal -> channal.sendMessage("L"));
-  // event.getGuild().get
+   test.setDescription("Hello new [member]. this is just a test for this bot".replace("[member]", event.getMember().getAsMention()));
+   event.getUser().openPrivateChannel().flatMap(channal -> channal.sendMessage(test.build()));
  }
  
  
